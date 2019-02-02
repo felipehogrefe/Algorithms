@@ -11,7 +11,9 @@ public class Permutation {
 			s = StdIn.readString();
 			rq.enqueue(s);
 		}
-			
+		Integer x=123,y=321;
+		System.out.println(x==y);
+			StringBuilder sb = new StringBuilder("string").reverse();
 		while(!rq.isEmpty()) {
 			System.out.println(rq.dequeue());
 		}
